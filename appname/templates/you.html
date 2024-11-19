@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+    {% block title %} You {% endblock %}
+    {% block content %}
+    <h1>You</h1>
+    <hr>
+    <p>讀者:{{name}}</p>
+    <p>來自:{{place}}</p>
+    <hr>
+    <p>故事簡介:</p>
+    <p>別人的特色</p>
+    {% endblock %}
+</body>
+</html>
